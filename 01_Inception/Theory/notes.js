@@ -20,3 +20,35 @@
 
         root.render(heading); // adding the react element to the root element
 */
+// Creating a React Element with multiple children
+/*
+        const heading = React.createElement('h1', 
+        {
+            id : 'heading',
+        },
+        'Hello World!');  // creating a react element with id and text
+        
+        const heading1 = React.createElement('h1', 
+        {
+            id : 'heading1',
+        },
+        'Hello World!');  // creating a react element with id and text
+        
+        const container = React.createElement('div', 
+        {
+            id : 'container',
+        },
+        [heading,heading1]);  // creating a react element with id and text
+        
+        const root = ReactDOM.createRoot(document.getElementById('root')); // creating a react root element 
+
+        root.render(container); // adding the react element to the root element
+*/
+// React.createElement() takes three arguments 
+// 1. type of the element (string or React Component)
+// 2. props of the element (object)
+// 3. children of the element (string or React Element)
+
+// React.createElement() returns a React Element which is a plain JavaScript object
+
+
