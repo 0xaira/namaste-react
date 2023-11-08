@@ -24,7 +24,7 @@ export const Body = () => {
           className="search-input"
           placeholder="Search a restaurant you want..."
           value={searchText}
-          onChange={(e) => setSearchText(e.target.value)}
+          onChange={(e) => setSearchText(e.target.value)} // update the state of searchText variable
         ></input>
         <button
           className="search-btn"
