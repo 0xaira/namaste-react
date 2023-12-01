@@ -56,10 +56,17 @@ const appRouter =createBrowserRouter([
         },
 ]);
 
+Link is used to link to a particular page in our application and it is used in the component where we want to link to a particular page 
+
 
 For Dynamic Routing
 Configuration:
 path: "/about/:id" // This is used to get the id from the url
 useParams() // This is used to get the id from the url in the component
+
+Two Types of routing:
+Client Side Routing
+Server Side Routing
+
 
 */

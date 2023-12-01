@@ -1,0 +1,8 @@
+/*
+Code Splitting 
+On demand loading
+Chunking
+Dynamic Imports
+Dynamic Bundling
+Lazy Loading
+*/

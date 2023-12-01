@@ -46,14 +46,14 @@ export { multiply };
 
 /*
 Creating variables with Js
-const searchText = "TYPEHERE";
+const searchText = "default value";
 
 Creating variables with React using useState
-const [searchText] = useState("TYPEHERE");
+const [searchText] = useState("default value");
 
 useState is a function that returns an array with 2 values:
 1. The first value is the current value of the state, and the second value is a state setter function that allows you to update the state value.
-2. The useState function takes the initial state as an argument. In the example above, the initial state is "TYPEHERE".
+2. The useState function takes the initial state as an argument. In the example above, the initial state is "default value".
 
 
 */
@@ -68,6 +68,12 @@ useState is a function that returns an array with 2 values:
 // In one-way data binding, the view (UI) part of an application does not change by itself. Whenever the model changes, the view gets updated by triggering a mechanism called as data binding. In one-way data binding, the data flows in a single direction from the model to the view.
 
 /*
+
+Reconcilation Algorithm (React Fiber)
+Virtual DOM: Representaion of Actual DOM
+Diff Algorithm Differnece between Old Virtual Dom and New Virtual Dom and then actually updates the UI
+
+React is effiecent because of Virtual DOM and Diff Algorithm (Reconcilation Algorithm)
 
 
 
